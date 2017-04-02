@@ -41,7 +41,7 @@ public class Activity_ListView extends AppCompatActivity {
 
 	DownloadTask myTask;
 	DownloadImageTask imageTask;
-	private CustomAdapter myAdapter;
+	//private CustomAdapter myAdapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -52,12 +52,12 @@ public class Activity_ListView extends AppCompatActivity {
 		setTitle("Sort by:");
 
 		//listview that you will operate on
-		my_listview = (ListView)findViewById(R.id.lv);
+		//my_listview = (ListView)findViewById(R.id.lv);
 
-		myAdapter = new CustomAdapter(this);
-		setListAdapter(myAdapter);
+		//myAdapter = new CustomAdapter(this);
+		//setListAdapter(myAdapter);
 
-		listView = getListView();
+		//listView = getListView();
 
 		//toolbar
 		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -96,8 +96,10 @@ public class Activity_ListView extends AppCompatActivity {
 		String s = "";
 
 		for(int i = 0; i < bikes.size(); i++){
-			//TODO implement builder constructor and check bike data
+			s += bikes.get(i).MODEL;
 		}
+
+		tv.setText(s);
 
 		Toast.makeText(this, "Bike data succesfully retrieved!", Toast.LENGTH_SHORT).show();
 
