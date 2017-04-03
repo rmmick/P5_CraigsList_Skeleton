@@ -3,6 +3,14 @@
 
     <!-- the following will appear in the action bar foe API 3.0 and above -->
     <item
+        android:title="Reset"
+        android:id="@+id/reset"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:orderInCategory="1"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+    <item
         android:id="@+id/action_settings"
         android:icon="@drawable/action_settings1"
         app:showAsAction="never"

@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\drawable-xxxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\d9d129813a17e8fa89a6b3fdab9a61606005bf51\\output\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
+    },
+    {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\drawable-xxxhdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -82,5 +86,9 @@
     {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\drawable-xxxhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\d9d129813a17e8fa89a6b3fdab9a61606005bf51\\output\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
     }
 ]

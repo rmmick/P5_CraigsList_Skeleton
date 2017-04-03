@@ -20,19 +20,43 @@
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\9ee602dc29679bb44ceab3e41488d7081834ef97\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\b7cce25ac41a2ba773d0262234bf9db72a4643f6\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\b7cce25ac41a2ba773d0262234bf9db72a4643f6\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\b7cce25ac41a2ba773d0262234bf9db72a4643f6\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\9ee602dc29679bb44ceab3e41488d7081834ef97\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Rachel\\.android\\build-cache\\e83eec118049652f408ab06039b2398ad250f4b0\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Rachel\\.android\\build-cache\\b7cce25ac41a2ba773d0262234bf9db72a4643f6\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     }
 ]

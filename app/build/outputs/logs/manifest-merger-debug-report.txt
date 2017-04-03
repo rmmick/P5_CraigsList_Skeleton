@@ -27,6 +27,8 @@ application
 ADDED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml:10:5-30:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Rachel\.android\build-cache\e83eec118049652f408ab06039b2398ad250f4b0\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Rachel\.android\build-cache\91056266473ee0437863e39425c0a13b480c3419\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\3bce00ba4349a1a602e66268623289feb4ece640\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\38f918b103face7126c9b08e4681cae11ece7dd9\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml:13:9-41
 	android:allowBackup
@@ -65,9 +67,22 @@ uses-sdk
 INJECTED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Rachel\.android\build-cache\e83eec118049652f408ab06039b2398ad250f4b0\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Rachel\.android\build-cache\91056266473ee0437863e39425c0a13b480c3419\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\a75e4fa8563f3752b9f9f1750bbc85826c4d0b03\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\3bce00ba4349a1a602e66268623289feb4ece640\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\38f918b103face7126c9b08e4681cae11ece7dd9\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\3bce00ba4349a1a602e66268623289feb4ece640\output\AndroidManifest.xml:23:9-55
 	android:targetSdkVersion
 		INJECTED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\a75e4fa8563f3752b9f9f1750bbc85826c4d0b03\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\3bce00ba4349a1a602e66268623289feb4ece640\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\38f918b103face7126c9b08e4681cae11ece7dd9\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\a75e4fa8563f3752b9f9f1750bbc85826c4d0b03\output\AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Rachel\.android\build-cache\a75e4fa8563f3752b9f9f1750bbc85826c4d0b03\output\AndroidManifest.xml:23:9-47

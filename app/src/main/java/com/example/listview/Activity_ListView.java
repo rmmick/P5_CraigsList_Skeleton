@@ -5,168 +5,156 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import org.json.JSONObject;
-
-import java.util.ArrayList;
 import java.util.List;
 
-import static android.R.attr.key;
-import static android.provider.ContactsContract.CommonDataKinds.Website.URL;
 import static com.example.listview.ConnectivityCheck.isNetworkReachableAlertUserIfNot;
 import static com.example.listview.JSONHelper.parseAll;
 
 public class Activity_ListView extends AppCompatActivity {
 
+    SharedPreferences pref;
+    SharedPreferences.OnSharedPreferenceChangeListener listener;
 
-	ListView my_listview;
-	SharedPreferences pref;
-	SharedPreferences.OnSharedPreferenceChangeListener listener;
+    public String myURL = "http://www.tetonsoftware.com/bikes/";
+    private String listURL = myURL + "bikes.json";
 
-	private String myURL = "http://www.tetonsoftware.com/bikes/";
-	private String listURL = myURL + "bikes.json";
+    List<BikeData> bikes;
 
-	List<BikeData> bikes;
+    DownloadTask myTask;
+    DownloadImageTask imageTask;
+    Spinner spinner;
 
-	DownloadTask myTask;
-	DownloadImageTask imageTask;
-	//private CustomAdapter myAdapter;
+    private RecyclerAdapter mAdapter;
+    private RecyclerView mRecyclerView;
+    private LinearLayoutManager mLinearLayoutManager;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        setTitle("Sort by:");
 
-		// Change title to indicate sort by
-		setTitle("Sort by:");
+        //TODO Fix so that RecyclerView works
+        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        mLinearLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLinearLayoutManager);
+        mAdapter = new RecyclerAdapter(bikes);
+        mRecyclerView.setAdapter(mAdapter);
 
-		//listview that you will operate on
-		//my_listview = (ListView)findViewById(R.id.lv);
+        //TODO Code for listview that is so far unused
+        //my_listview = (ListView)findViewById(R.id.lv);
+        //myAdapter = new CustomAdapter(this);
+        //setListAdapter(myAdapter);
+        //listView = getListView();
 
-		//myAdapter = new CustomAdapter(this);
-		//setListAdapter(myAdapter);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        //actionBar.show();
 
-		//listView = getListView();
+        setupSimpleSpinner();
+        isNetworkReachableAlertUserIfNot(this);
 
-		//toolbar
-		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-		setSupportActionBar(toolbar);
-		android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        //TODO set the listview onclick listener
+        setupListViewOnClickListener();
 
-		setupSimpleSpinner();
+        //Initial JSON data gathered
+        doTask();
 
-		//set the listview onclick listener
-		setupListViewOnClickListener();
+        //Listener for the URL Preference Change
+        pref = PreferenceManager.getDefaultSharedPreferences(this);
+        listener = new SharedPreferences.OnSharedPreferenceChangeListener() {
+            @Override
+            public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+                if (key.equals("PREF_LIST")) {
+                    myURL = pref.getString("PREF_LIST", "Nothing Found");
+                    listURL = myURL + "bikes.json";
+                    bikes.clear();
+                    spinner.setAdapter(null);
+                    setupSimpleSpinner();
 
-		isNetworkReachableAlertUserIfNot(this);
+                    Toast.makeText(Activity_ListView.this, "Now Connected to " + listURL, Toast.LENGTH_SHORT).show();
 
-		//TODO call a thread to get the JSON list of bikes
+                    if (isNetworkReachableAlertUserIfNot(Activity_ListView.this)) {
+                        doTask();
+                    }
+                }
 
-		doTask();
+            }
+        };
 
-		//TODO when it returns it should process this data with bindData
-	}
+        pref.registerOnSharedPreferenceChangeListener(listener);
+    }
 
-	private void setupListViewOnClickListener() {
-		//TODO you want to call my_listviews setOnItemClickListener with a new instance of android.widget.AdapterView.OnItemClickListener() {
-	}
+    private void setupListViewOnClickListener() {
+        //TODO you want to call my_listviews
+        //TODO setOnItemClickListener with a new instance of android.widget.AdapterView.OnItemClickListener()
 
-	/**
-	 * Takes the string of bikes, parses it using JSONHelper
-	 * Sets the adapter with this list using a custom row layout and an instance of the CustomAdapter
-	 * binds the adapter to the Listview using setAdapter
-	 *
-	 * @param JSONString  complete string of all bikes
-	 */
-	protected void bindData(String JSONString) {
-		bikes = parseAll(JSONString);
+    }
 
-		TextView tv = (TextView) findViewById(R.id.textView);
-		String s = "";
+    /**
+     * Takes the string of bikes, parses it using JSONHelper
+     * Sets the adapter with this list using a custom row layout and an instance of the CustomAdapter
+     * binds the adapter to the Listview using setAdapter
+     *
+     * @param JSONString complete string of all bikes
+     */
+    protected void bindData(String JSONString) {
 
-		for(int i = 0; i < bikes.size(); i++){
-			s += bikes.get(i).MODEL;
-		}
+        bikes = parseAll(JSONString);
 
-		tv.setText(s);
+        Toast.makeText(this, "Bike data succesfully retrieved!", Toast.LENGTH_SHORT).show();
+    }
 
-		Toast.makeText(this, "Bike data succesfully retrieved!", Toast.LENGTH_SHORT).show();
+    /**
+     * create a data adapter to fill above spinner with choices(Company,Location and Price),
+     * bind it to the spinner
+     * Also create a OnItemSelectedListener for this spinner so
+     * when a user clicks the spinner the list of bikes is resorted according to selection
+     * dontforget to bind the listener to the spinner with setOnItemSelectedListener!
+     */
 
-	}
+    private void setupSimpleSpinner() {
 
-	Spinner spinner;
-	/**
-	 * create a data adapter to fill above spinner with choices(Company,Location and Price),
-	 * bind it to the spinner
-	 * Also create a OnItemSelectedListener for this spinner so
-	 * when a user clicks the spinner the list of bikes is resorted according to selection
-	 * dontforget to bind the listener to the spinner with setOnItemSelectedListener!
-	 */
-	private void setupSimpleSpinner() {
+        spinner = (Spinner) findViewById(R.id.spinner);
 
-		spinner = (Spinner) findViewById(R.id.spinner);
-		pref = PreferenceManager.getDefaultSharedPreferences(this);
+    }
 
-		listener = new SharedPreferences.OnSharedPreferenceChangeListener(){
-			@Override
-			public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
-				if(key.equals("PREF_LIST")){
-					myURL = pref.getString("PREF_LIST", "Nothing Found");
-					bikes.clear();
-					spinner.setAdapter(null);
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
 
-					if(doNetworkCheck()){
-						doTask();
-					}
-				}
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                Intent settings = new Intent(this, activityPreference.class);
+                startActivity(settings);
+                return true;
+            default:
+                error();
+                break;
+        }
+        return true;
+    }
 
-			}
-		};
-	}
+    public void doTask() {
+        myTask = new DownloadTask(this);
+        myTask.execute(listURL);
+    }
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.menu, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case R.id.action_settings:
-				Intent settings = new Intent(this, activityPreference.class);
-				startActivity(settings);
-				return true;
-			default:
-				break;
-		}
-		return true;
-	}
-
-	public boolean doNetworkCheck() {
-		String res = isNetworkReachableAlertUserIfNot(this)?"Connected":"No Network Connection";
-		return res.equals("Connected");
-	}
-
-	public void doTask(){
-		myTask = new DownloadTask(this);
-		myTask.execute(listURL);
-	}
-
-	public void error() {
-		spinner.setEnabled(false);
-		Toast.makeText(this, "An Error has Occurred", Toast.LENGTH_SHORT).show();
-	}
+    public void error() {
+        spinner.setEnabled(false);
+        Toast.makeText(this, "An Error has Occurred", Toast.LENGTH_SHORT).show();
+    }
 }
