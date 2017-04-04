@@ -10,10 +10,15 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 import java.util.List;
 
 import static com.example.listview.ConnectivityCheck.isNetworkReachableAlertUserIfNot;
@@ -43,18 +48,11 @@ public class Activity_ListView extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Sort by:");
 
-        //TODO Code for listview that is so far unused
-        //my_listview = (ListView)findViewById(R.id.lv);
-        //myAdapter = new CustomAdapter(this);
-        //setListAdapter(myAdapter);
-        //listView = getListView();
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        //android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         //actionBar.show();
 
-        setupSimpleSpinner();
         isNetworkReachableAlertUserIfNot(this);
 
         //TODO set the listview onclick listener
@@ -62,16 +60,6 @@ public class Activity_ListView extends AppCompatActivity {
 
         //Initial JSON data gathered
         doTask();
-
-        TextView tv = (TextView) findViewById(R.id.textView);
-        String s = "";
-        if(bikes != null) {
-            for (int i = 0; i < bikes.size(); i++) {
-                s += bikes.get(i).MODEL + "\n";
-            }
-        }
-
-
 
         //Listener for the URL Preference Change
         pref = PreferenceManager.getDefaultSharedPreferences(this);
@@ -96,6 +84,9 @@ public class Activity_ListView extends AppCompatActivity {
         };
 
         pref.registerOnSharedPreferenceChangeListener(listener);
+
+        setupSimpleSpinner();
+
     }
 
     private void setupListViewOnClickListener() {
@@ -120,8 +111,6 @@ public class Activity_ListView extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
         mAdapter = new RecyclerAdapter(bikes);
         mRecyclerView.setAdapter(mAdapter);
-
-        Toast.makeText(this, "Bike data succesfully retrieved!", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -131,10 +120,32 @@ public class Activity_ListView extends AppCompatActivity {
      * when a user clicks the spinner the list of bikes is resorted according to selection
      * dontforget to bind the listener to the spinner with setOnItemSelectedListener!
      */
-
     private void setupSimpleSpinner() {
 
         spinner = (Spinner) findViewById(R.id.spinner);
+
+        ArrayList<String> s = new ArrayList<>();
+        s.add("Company");
+        s.add("Location");
+        s.add("Price");
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, s);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+        spinner.setEnabled(true);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                if(bikes != null) {
+                    mAdapter.sortList(spinner.getSelectedItem().toString());
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
 
     }
 

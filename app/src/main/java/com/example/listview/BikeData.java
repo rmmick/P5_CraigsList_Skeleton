@@ -15,9 +15,6 @@ public class BikeData {
     public final String Picture;
     public final String Link;
 
-
-    //TODO make all BikeData fields final
-
     /* (non-Javadoc)
      * @see java.lang.Object#toString()
      */

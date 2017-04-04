@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
         "source": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Rachel\\Desktop\\P5_CraigsList_Skeleton\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
