@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.util.List;
 
@@ -42,13 +43,6 @@ public class Activity_ListView extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Sort by:");
 
-        //TODO Fix so that RecyclerView works
-        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        mLinearLayoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(mLinearLayoutManager);
-        mAdapter = new RecyclerAdapter(bikes);
-        mRecyclerView.setAdapter(mAdapter);
-
         //TODO Code for listview that is so far unused
         //my_listview = (ListView)findViewById(R.id.lv);
         //myAdapter = new CustomAdapter(this);
@@ -68,6 +62,16 @@ public class Activity_ListView extends AppCompatActivity {
 
         //Initial JSON data gathered
         doTask();
+
+        TextView tv = (TextView) findViewById(R.id.textView);
+        String s = "";
+        if(bikes != null) {
+            for (int i = 0; i < bikes.size(); i++) {
+                s += bikes.get(i).MODEL + "\n";
+            }
+        }
+
+
 
         //Listener for the URL Preference Change
         pref = PreferenceManager.getDefaultSharedPreferences(this);
@@ -110,6 +114,12 @@ public class Activity_ListView extends AppCompatActivity {
     protected void bindData(String JSONString) {
 
         bikes = parseAll(JSONString);
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        mLinearLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLinearLayoutManager);
+        mAdapter = new RecyclerAdapter(bikes);
+        mRecyclerView.setAdapter(mAdapter);
 
         Toast.makeText(this, "Bike data succesfully retrieved!", Toast.LENGTH_SHORT).show();
     }

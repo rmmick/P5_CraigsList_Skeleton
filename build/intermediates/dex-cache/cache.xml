@@ -2,301 +2,589 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\32773f8213d5235708e2bcd36c6021d130c99094\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="eb576427887e497cd958a475475f9206e38dc314">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_7f4520b5626b147423444416e0ecdd5743dd334a.jar" />
+        revision="25.0.2"
+        sha1="1f9df8b2bfff203397548ee400789154968adfe8">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.2.1_39f9914ebedac9ddbb1c3dfe98c0c93a9af45d0e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\ac2c234dea96591bc997c63a53e25f73e94aafd3\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="77f9593d979f4347344be233bd0d888315f79517">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_3aaf7e29d45545785fe04ed609701ae6a5965b41.jar" />
+        revision="25.0.2"
+        sha1="825c2e97a00df4df5b0f3081faa4fd6280cd7c72">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.2.1_10eec62e53a1959b3e144b0f28aac1d4a9b467e5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\e83eec118049652f408ab06039b2398ad250f4b0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_a0cd0a622b92bdb4240b515acccb1185d827c06f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\8406a2289710f54d074a687779f7d645029d527e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_711ad081d40fcad73d43fd51eb2269d651cb007b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\b7cce25ac41a2ba773d0262234bf9db72a4643f6\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_897a2bf2a5cb2beb48fe38ce5c6990a01426be3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\38f918b103face7126c9b08e4681cae11ece7dd9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_5df25cfe10f629aeeab8790f43ee09cc23f16aba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\2958bd5ca326c52a8f82413e77bf04713fcc935b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="27775d59b16610ac76f1b83693fedd9520396332">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_e65b38737e1cb6c34144327e0a4926991bb74aca.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\b47b7b1a74b87242c9100f923e66d02a11cfeb5e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_0f8becf31dc6f56f6b09e4cf08e1d1c736134063.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\0734405cb07001090a8c33ab1c3887522b716697\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_a7e648af89da9f121d8b8dc746cf55cb14bd7809.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\51e8936af82ecbdd0e439c33b9ded6329f03fa91\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2c6fcd6267cbac6509a2e72a61127534a1d616cf">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_518814c050fd1725c6b332f4e60af561dc61c408.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Rachel\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\picasso-2.4.0_1655ab55661fc470bc108e9723e01291031da9e7.jar" />
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.4.0_1655ab55661fc470bc108e9723e01291031da9e7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\e44564f08f717978167edfde883020c258201803\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="ea34579b1be157cd792376362157e9c54ebb4cd7">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_9221976693058f75ed8abfde2ee80a9f42cef77c.jar" />
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.1_2f8cb4f8a8cf114b3a73c4f42215addd3253be96\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\83f6897d1869aba9ea5ea945cb49697b710a63d2\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="697679619b00837e3d09e9988a2e1e2a9009d502">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_85d9f9a1caafe2d709211b576772eb9a76189b3f.jar" />
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.1_213a52306848553ad6c200d6d77e4b55a55a9bfd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\d45814d1aac16f219ff6a251852e2913108887ed\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_7c36bf5db5a7d60bf8d53cd349c6885b2355e4d4.jar" />
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-26.0.0-alpha1_00fddb64ddd28f21d13911520d6a6c3c3369c203\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\18265220146bc2dedb718956550f41d366748497\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_5ff9fc4a9d8ac8dfe43c24d2e61c3a25120707d7.jar" />
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.1_bc07afa951cd626f26b9f683f956e2621eafbd91\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_bb354dc36bc3ec94a8f15731257f1cf34905d58d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.2.1_7a4d75f6e1c8b924b5b6e6c093f5ca0f3629b774\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_9991d44c5b2b54319d967f7882359ffb20d6cc7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Rachel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_f7cd2b44bfffa486b0a81c33298c24f380b5ce96.jar" />
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_f7cd2b44bfffa486b0a81c33298c24f380b5ce96\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\fbcdda65f1aa39d9a1452c71c6082cb3fe43ee78\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_3d5e32a2046a42459b761f0bf87b18440019d23f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_e3875525b4358141ccfdbe86fb0424b6185d59fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.2.1_0602ee379ffc09c89cef727e9efebe2cd227d1c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.2.1_8bdded461363aea11b054a5e8d8460a4f00043d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.1_4969340b5e02940707278792efbaaf93d96e1c4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c3c7f923e1df76640acb3a24823600f034a5d226">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.2.1_7b16dca31d390f11273c237ed40e3d3022a3063d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.2.1_bc93997a9ceeb1e52066fa06edc8bf44775e64ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44098e691b36776973374ac03afe0225b17f8a74">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.2.1_92683a6e88810c819f181e2bc9721b8588406ed3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.1_f03e24bf4a6b2c0fc321b493f686a54380cc3cb9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_9eb9cc8b6121d48f59284cb5b9832f132b1b79e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="744c49c02a27569cc4cc049685d3649e4ef439f2">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_12c634a600188fa709d741f610fdf098a997ef2d.jar" />
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.4.0_1655ab55661fc470bc108e9723e01291031da9e7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\d7901f097d2c9a1c0cd8ae8985db90e6523a35f5\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="724ce977487ab3a215d4d2eb47d8dccd9f30013f">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_a93c2e9cb2fa2b04735916763acbbd228b75e297.jar" />
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.2.1_0463f366cda2ccb178322772eb022d33b760833c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\a75e4fa8563f3752b9f9f1750bbc85826c4d0b03\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_7d9ef5a023f2f0046bbc3529120ef6724fa5c790.jar" />
+        revision="25.0.2"
+        sha1="125bce1fb2d481b964fabf75f0949957ebe9ecd1">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.2.1_cb61927ec0774892fe2aa85a75bc38f1af08c157\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\cc7800e3f1c8ede83a46a27625ac940d9cd0d527\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="0a1897426566e408a5c20a3d931f77d89771d07f">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_f6103b56cd01284b48a284ce20062893b6c9083d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\39af1b64d942136bfa94727d201b5f9f76c24e1a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="58adcfbe2c8393765e84c5489d01bba6a5159eb2">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_69fef74b0c882b89b40bf93ef0115884d71afb18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\221416e92cdf9e7d54519e5f9667d8ab8625fd78\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="71eda10e33212e44245524b5087366ff8d805825">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_af64c93b6046192d92909433116e2097541c94a6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\38e35a448a4886c8b560ac62b2e35488107d23e1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_06d9a745118a4984e4c543f671333cc4fc587d69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\91056266473ee0437863e39425c0a13b480c3419\output\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_081076b68262c80571ffce17828547aad8800416.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\d9d129813a17e8fa89a6b3fdab9a61606005bf51\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_1acb905dc9c0051fe6e9b48355622d31b68eaf70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\91056266473ee0437863e39425c0a13b480c3419\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_7d631a809065bc6ee509373d953a2a76adec8444.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\9794ab9c994a84e7b0ccca77cf869a68a36db08f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9aedc597d74c6d77258ce5236e9abff0c3cc65e3">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_e4ba222213eddfb141bb24123fec95117b8b5682.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\a00439a26b8fdb59158a90b6a46251171ebe30ab\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_7abe96ec29663aa3593424e03aa661341092f326.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\7a41cfd98de26d3aec87c8b2838b27e1d8eda22e\output\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_237c8dcf62e32e328af8a11dd7c13a9546c0479e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\3bce00ba4349a1a602e66268623289feb4ece640\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_74e67903b59c3568f76ccc02b318a2fb13201d4e.jar" />
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_4602b6020fd97ded7fd57310d2276e0b908cdbf7\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\7a41cfd98de26d3aec87c8b2838b27e1d8eda22e\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_270688b1506075e5780960d170c1542ff18b37d5.jar" />
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.1_5717d01e107ac3a63fbe9d839e72894c455f299e\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\3eeda05cc765fb3e56a724207f414e909dbb1c6c\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_031bbe2b9833e0974c74ba62a271068a4e4910e9.jar" />
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.1_5e43712d3b18a44a7c40a6ec4c3f067bc1ac91e2\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Rachel\.android\build-cache\9ee602dc29679bb44ceab3e41488d7081834ef97\output\jars\classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="25.0.0"
-        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
-        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\pre-dexed\debug\classes_9537ea65653e13720b97b0c5370eb7b6315fb473.jar" />
+        revision="25.0.2"
+        sha1="5ee29abfc804ebd51d65a4bde424c0ee74363939">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.2.1_1ef8fecd76f9f2ab91c4dffc7cfadd41f503cbff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="536fd6afd6e1280607c5d70306eb32d385db7964">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.2.1_cc45b291fe54dc077409f5384a56ab04b3854a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_23abe910d0ffa628f4de0be91b4dd05620344cb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d395c5142f474891c7750f13b6a85d14682f166b">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.2.1_434cd33e41b6a9964a295a466bf70172b5547f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec7d3099b4e3cf23230c78acaae438f3371e1c19">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.2.1_60e4ca4c5215a1626ef05283dbd73ba0809e866c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b136ac09f209c1d91fec7db8518e33d4373c8f39">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.2.1_edbf0a638f46760a00773bee4ac9eabdd3c446ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.2.1_720ad66f9a0cbe5851da29f655e7b29b3819f1f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_2eaf7ac9a6c0885c25c8121c5b3de08315fd495e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f233cb35a6ea92364130d2d48791c461ec65983">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.2.1_7991f28b3b8ad10e4a0f7e885df5d02a048eb089\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4851331b3944beb6e7f77316a7661f53781da62">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.2.1_06416358c351f0b5701f7fa5711e4e880580ce22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c74dab42788b458960618238f338d324b6f0656">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.2.1_3039de538dabfbdd5efad2f8ab08907fb66acc7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.2.1_2144e113dc4f304afc3721fab2e581d77d1ea993\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.2.1_c216cf7848aa9c26d6ce3535e74c26cc41c4ed02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6818f5804ca0b5eb089d902458faea4179eca1d">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.2.1_5d316aa896fa4748afc9972899e3c5af03608706\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dbae35d7fc3427d30bef0037bdf61ad0d8d984f8">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.2.1_a22430694c7a629fcc15f142a4f24fb841217c07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.2.1_055320d9ec20c0126f1e42326871488c0152ece7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.1_b55f90ce987c1003f0d4fb79cfbebb59bc9f00ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_7882bbd82a8a3c828acb8bee7cd6731e5832a8f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.2.1_32777496bfe1cd37060a32a1bf8de47844c23f96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.1_45a1d9d9638dc8f936f50e13fe43853aa671e46f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_574015403c1c1d571151f06c5d872ec1d6a78138\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b32372f6821e003ae24cd3389bdd7925247f100">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.2.1_4e1348354e012cf7eba0035e66561b49cde923d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_16f4879f35157dfbcae510bf056b1e713e18df4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efae381df589f3d4977c346c8a980f030315bb8b">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1_3bda4137cfa8627441d8f6d17f0b2a088de749a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d67042688d34474a82fe4ef4c6514ef471377ef">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.2.1_4908bc09810d177ac229a99737a9201f5f1dd1f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_a1d438ed7ef5ff480e144d402b68b1b6658fa432\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.2.1_f0b6a747760282a94d8e143550a9c9b9a50d381b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7ba26433d9e9f4429d83ff65ad79bfc801dc00a">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.2.1_c91c76fd2ff6bde103f3ae377600c0b731f4fbd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.1_a7f98b0d365703ec3b58cbfde98391ee68533342\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3826817a4de1daa170c33bbc04db24ab6826bd5">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.2.1_939e1fe419f33e8ae764f664245e44bda54b5e29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8dfe54fbaf4f2a27d395ddf806d0c011170999e0">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.2.1_a7441996fe71d140f8f7978ca22d9b8122af7834\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d81a3b0a16f48b4456f442552b62f4b1a472ce24">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.2.1_f1d6ba5ad56b6cb50df8ead494fc22a024440b2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.2.1_3421eb26053ec2e9ad19e5654583f67451c62a7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_f7cd2b44bfffa486b0a81c33298c24f380b5ce96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cce5792fa30ee8520620f298bf920309423b180f">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.2.1_035c69d48d9d6d2488bc7163d6bf738e0a48afb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bb2f0934fa55799508ba58ffc9ba579b35744b8">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.2.1_98eb2b80600968a08ab03568b1c04ea13424d38d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.1_fbd4129ed7e90b9fb17550224c22f8859e50cc36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb004ea36f8802bad30000e286c177691740a322">
+        <dex dex="C:\Users\Rachel\Desktop\P5_CraigsList_Skeleton\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.2.1_8e8177234c1dc253c502e4f66e7952f511ee6127\classes.dex" />
     </item>
 
 </items>
