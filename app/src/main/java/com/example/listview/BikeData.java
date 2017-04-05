@@ -10,18 +10,23 @@ public class BikeData {
     public final String  MODEL;
     public final Double  PRICE;
     public final String  LOCATION;
-    public final String Description;
-    public final String Date;
-    public final String Picture;
-    public final String Link;
+    public final String DESCRIPTION;
+    public final String DATE;
+    public final String PICTURE;
+    public final String LINK;
 
-    /* (non-Javadoc)
-     * @see java.lang.Object#toString()
-     */
+
     @Override
     public String toString() {
-        // TODO figure out how to print all bikedata out for dialogs
-        return "TODO";
+
+        String info = "Company: " + COMPANY + "\n"
+                + "Model: " + MODEL + "\n"
+                + "Price: " + PRICE + "\n"
+                + "Location: " + LOCATION + "\n"
+                + "Date Listed: " + DATE + "\n"
+                + "Description: " + DESCRIPTION + "\n"
+                + "Link: " + LINK;
+        return info;
     }
 
     private BikeData(Builder b) {
@@ -29,10 +34,10 @@ public class BikeData {
         MODEL = b.Model;
         PRICE = b.Price;
         LOCATION = b.Location;
-        this.Description = b.Description;
-        this.Date = b.Date;
-        this.Picture = b.Picture;
-        this.Link = b.Link;
+        this.DESCRIPTION = b.Description;
+        this.DATE = b.Date;
+        this.PICTURE = b.Picture;
+        this.LINK = b.Link;
     }
 
     /**

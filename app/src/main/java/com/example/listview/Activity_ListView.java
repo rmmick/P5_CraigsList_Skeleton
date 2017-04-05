@@ -13,9 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -26,8 +24,8 @@ import static com.example.listview.JSONHelper.parseAll;
 
 public class Activity_ListView extends AppCompatActivity {
 
-    SharedPreferences pref;
-    SharedPreferences.OnSharedPreferenceChangeListener listener;
+    private SharedPreferences pref;
+    private SharedPreferences.OnSharedPreferenceChangeListener listener;
 
     public String myURL = "http://www.tetonsoftware.com/bikes/";
     private String listURL = myURL + "bikes.json";
@@ -35,7 +33,6 @@ public class Activity_ListView extends AppCompatActivity {
     List<BikeData> bikes;
 
     DownloadTask myTask;
-    DownloadImageTask imageTask;
     Spinner spinner;
 
     private RecyclerAdapter mAdapter;
@@ -50,13 +47,8 @@ public class Activity_ListView extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        //android.support.v7.app.ActionBar actionBar = getSupportActionBar();
-        //actionBar.show();
 
         isNetworkReachableAlertUserIfNot(this);
-
-        //TODO set the listview onclick listener
-        setupListViewOnClickListener();
 
         //Initial JSON data gathered
         doTask();
@@ -70,14 +62,9 @@ public class Activity_ListView extends AppCompatActivity {
                     myURL = pref.getString("PREF_LIST", "Nothing Found");
                     listURL = myURL + "bikes.json";
                     bikes.clear();
-                    spinner.setAdapter(null);
-                    setupSimpleSpinner();
+                    doReset();
+                    Toast.makeText(Activity_ListView.this, "Now Connected to: \n" + listURL, Toast.LENGTH_SHORT).show();
 
-                    Toast.makeText(Activity_ListView.this, "Now Connected to " + listURL, Toast.LENGTH_SHORT).show();
-
-                    if (isNetworkReachableAlertUserIfNot(Activity_ListView.this)) {
-                        doTask();
-                    }
                 }
 
             }
@@ -86,12 +73,6 @@ public class Activity_ListView extends AppCompatActivity {
         pref.registerOnSharedPreferenceChangeListener(listener);
 
         setupSimpleSpinner();
-
-    }
-
-    private void setupListViewOnClickListener() {
-        //TODO you want to call my_listviews
-        //TODO setOnItemClickListener with a new instance of android.widget.AdapterView.OnItemClickListener()
 
     }
 
@@ -109,7 +90,7 @@ public class Activity_ListView extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mLinearLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLinearLayoutManager);
-        mAdapter = new RecyclerAdapter(bikes);
+        mAdapter = new RecyclerAdapter(bikes, myURL);
         mRecyclerView.setAdapter(mAdapter);
     }
 
@@ -123,11 +104,13 @@ public class Activity_ListView extends AppCompatActivity {
     private void setupSimpleSpinner() {
 
         spinner = (Spinner) findViewById(R.id.spinner);
+        spinner.setAdapter(null);
 
         ArrayList<String> s = new ArrayList<>();
         s.add("Company");
         s.add("Location");
         s.add("Price");
+        //s.add("Model");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, s);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -162,11 +145,20 @@ public class Activity_ListView extends AppCompatActivity {
                 Intent settings = new Intent(this, activityPreference.class);
                 startActivity(settings);
                 return true;
+            case R.id.reset:
+                doReset();
+                return true;
             default:
                 error();
                 break;
         }
         return true;
+    }
+
+    private void doReset() {
+        isNetworkReachableAlertUserIfNot(this);
+        doTask();
+        setupSimpleSpinner();
     }
 
     public void doTask() {
